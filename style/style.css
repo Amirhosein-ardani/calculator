@@ -1,3 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+@font-face {
+  font-family: bold;
+  src: url(../font/Poppins-Bold.ttf);
+}
+main {
+  width: 23%;
+  height: 90vh;
+  margin-left: 36%;
+  margin-top: 3%;
+  background-color: #e0ccbe;
+  padding-top: 14%;
+  border-radius: 30px;
+}
+main .camera {
+  width: 150px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 15px;
+  position: relative;
+  bottom: 180px;
+  left: 82px;
+}
+main h1 {
+  font-family: bold;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: end;
+  margin-right: 20px;
+}
+main .hero {
+  width: 100%;
+  height: 47vh;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+}
+main .hero button {
+  border-radius: 100px;
+  margin: 3px;
+  font-family: bold;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  border: none;
+}
+main .hero button:nth-child(1) {
+  background-color: rgb(148, 143, 143);
+  color: black;
+}
+main .hero button:nth-child(2) {
+  background-color: rgb(148, 143, 143);
+  color: black;
+}
+main .hero button:nth-child(3) {
+  background-color: rgb(148, 143, 143);
+  color: black;
+}
+main .hero button:nth-child(4) {
+  background-color: rgb(247, 145, 11);
+}
+main .hero button:nth-child(8) {
+  background-color: rgb(247, 145, 11);
+}
+main .hero button:nth-child(12) {
+  background-color: rgb(247, 145, 11);
+}
+main .hero button:nth-child(16) {
+  background-color: rgb(247, 145, 11);
+}
+main .hero button:nth-child(20) {
+  background-color: rgb(247, 145, 11);
+}
+main .hero button:hover {
+  background-color: #3c3633;
+}
 
 /*# sourceMappingURL=style.css.map */
